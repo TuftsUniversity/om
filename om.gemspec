@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'activemodel', '>= 5.1', '< 7'
   s.add_dependency 'activesupport'
   s.add_dependency('nokogiri', ">= 1.4.2")
-  s.add_dependency 'solrizer', '~> 3.3'
+  s.add_dependency 'solrizer', '>= 3.4, < 5'
   s.add_development_dependency "awesome_print"
   s.add_development_dependency 'coveralls'
   s.add_development_dependency "equivalent-xml", ">= 0.2.4"
